@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KING DELUXE | Professional Wedding Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+            url("https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9") center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+            color: #f1c40f;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 40px;
+            background: rgba(0,0,0,0.85);
+            display: flex;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            color: #f1c40f;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #f1c40f;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.4s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact {
+            text-align: center;
+            background: #111;
+        }
+
+        .contact h2 {
+            color: #f1c40f;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+            color: #aaa;
+        }
+
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>KING DELUXE</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header>
+    <h1>KING DELUXE</h1>
+    <p>Luxury Wedding & Portrait Photography</p>
+</header>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        KING DELUXE is a premium photography brand specializing in
+        <strong>Indian wedding portraits, candid moments, and luxury shoots</strong>.
+        We capture emotions, traditions, and timeless memories with a royal touch.
+    </p>
+</section>
+
+<section id="gallery">
+    <h2 style="text-align:center; color:#f1c40f; margin-bottom:40px;">Wedding Portrait Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1591608516485-5f9bcd9d1c9c" alt="Indian Wedding Portrait">
+        <img src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2" alt="Bride Portrait">
+        <img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9" alt="Couple Wedding">
+        <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb" alt="Indian Wedding Ceremony">
+        <img src="https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf" alt="Bride Groom Portrait">
+        <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed" alt="Traditional Wedding">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: <strong>8639981804</strong></p>
+    <p>📍 Available for Weddings, Pre-Weddings & Portrait Shoots</p>
+</section>
+
+<footer>
+    <p>© 2025 KING DELUXE Photography. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
